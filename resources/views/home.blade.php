@@ -172,6 +172,7 @@
                     Fulltime - D&eacute;veloppeur Web
                   </div>
                   <div class="experience__description reveal-4">
+                    <p>Développeur web au sein de l'agence Devfactory. Mes principales tâches sont:</p>
                     <ul>
                       <li>Développement de projets Laravel</li>
                       <li>Développement de projets Drupal (7/8/9)</li>
@@ -179,7 +180,6 @@
                       <li>Création de services backend pour ces applications web</li>
                       <li>Maintenances et réparations des projets existants</li>
                     </ul>
-                    <p>Développeur web, membre de l'équipe de développement de l'agence </p>
                   </div>
                   <div class="experience__location reveal-5">
                     Lausanne VD, Suisse
