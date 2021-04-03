@@ -1,0 +1,118 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__content + &__content{
+        margin-top: 40px;
+    }
+
+    &__header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+
+    &__title{
+        font-family: $lato-sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        color: $font-color-blue;
+    }
+
+    &__subtitle{
+        font-family: $roboto-sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    &__content{
+        width: 100%;
+        padding-top: 50px;
+
+        border-top: 1px solid $font-color-blue
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__list-name{
+        font-family: $lato-sans-serif;
+        font-size: 27px;
+        font-weight: 400;
+        color: $font-color-blue; 
+
+        margin-bottom: 25px;
+    }
+
+    &__row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        @media (min-width: $screen-lg-min) {
+            flex-direction: row;
+        }
+    }
+
+    &__row:not(:first-child){
+        margin-top: 40px;
+    }
+
+    &__left{
+        @media (min-width: $screen-lg-min) {
+            width: 25%;
+        }
+    }
+
+    &__right{
+        @media (min-width: $screen-lg-min) {
+            width: 65%;
+        }
+    }
+
+    &__place{
+        font-weight: bold;
+        font-size: 19px;
+    }
+
+    &__duration{
+        margin-bottom: 15px;
+
+        @media (min-width: $screen-lg-min) {
+            margin-top: 15px;
+            margin-bottom: 0;
+        }
+    }
+
+    &__name{
+        font-weight: bold;
+    }
+
+    &__description{
+        display: none;
+
+        @media (min-width: $screen-sm-min) {
+            display: block;
+            margin-top: 15px;
+        }
+    }
+
+    &__location{
+        margin-top: 0px;
+        color: $font-color-blue;
+
+        @media (min-width: $screen-lg-min) {
+            margin-top: 10px;
+        }
+    }
+}

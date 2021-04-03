@@ -1,0 +1,119 @@
+.abilities{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__content + &__content{
+        margin-top: 40px;
+    }
+
+    &__header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+
+    &__title{
+        font-family: $lato-sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        color: $font-color-blue;
+    }
+
+    &__subtitle{
+        font-family: $roboto-sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    &__content{
+        width: 100%;
+        padding-top: 50px;
+
+        border-top: 1px solid $font-color-blue
+    }
+
+    &__list-name{
+        font-family: $lato-sans-serif;
+        font-size: 27px;
+        font-weight: 400;
+        color: $font-color-blue; 
+
+        margin-bottom: 25px;
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (min-width: $screen-lg-min){
+            justify-content: flex-start;
+            flex-wrap: wrap;
+
+            &--skills{
+                height: 24em;
+            }
+
+            &--languages{
+                height: 4em;
+            }
+
+            &--tools{
+                height: 18em;
+            }
+        }
+    }
+
+    &__reveal{
+        width: 100%;
+        max-width: 375px;
+
+        @media (min-width: $screen-sm-min) {
+            width: 90%;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            width: 48%;
+        }
+    }
+
+    &__row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-center;
+
+        width: 100%;
+
+        padding: 4px 3px;
+
+        transition: background 0.2s;
+
+        .abilities__rate{
+            i{
+                transition: margin 0.4s;
+            }
+        }
+
+        &:hover{
+            background: #F2F2F2;
+
+            .abilities__rate{
+                i{
+                    margin: 0 1px;
+                }
+            }
+        }
+    }
+
+    &__rate{
+        color: $font-color-blue;
+        min-width: 125px;
+    }
+}

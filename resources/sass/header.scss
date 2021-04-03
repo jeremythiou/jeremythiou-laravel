@@ -1,0 +1,115 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    opacity: 0.85;
+    background-image: url("/images/mountain.jpg");
+    height: 100vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color: #111;
+        color: #fff;
+        padding: 5px 10px;
+        margin: 0 10px 100px;
+        
+        font-weight: 400;
+
+        @media (min-width: $screen-sm-min) {
+            padding: 18px;
+            margin: 0 0 200px;
+        }
+    }
+
+    &__name{
+        font-family: $lato-sans-serif;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 15px;
+
+        border-bottom: 1px solid #FFFFFF;
+
+        @media (min-width: $screen-sm-min) {
+            font-size: 50px;
+        }
+    }
+
+    &__status{
+        margin-top: 7px;
+                
+        font-family: $roboto-sans-serif;
+        font-size: 23px;
+        letter-spacing: 5px;
+    }
+
+    &__arrow{
+        display: none;
+
+        @media (min-width: $screen-sm-min) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute; 
+            bottom: 0px;
+            right: 150px;
+
+            width: 100px;
+            height: 62px;
+
+            font-size: 45px;
+            background-color: #111;
+            color: #FFFFFF;
+        }
+
+        i{
+            margin-top: 5px;
+        }
+
+        @keyframes hang {
+            0% {
+                transform: translateY(8px);
+            }
+            50% {
+                transform: translateY(4px);
+            }
+            100% {
+                transform: translateY(8px);
+            }
+        }
+
+        @keyframes hang-sink {
+            100% {
+                transform: translateY(8px);
+            }
+        }
+
+        &:hover{
+            i{
+                animation-name: hang-sink, hang;
+                animation-duration: .3s, 1.5s;
+                animation-delay: 0s, .3s;
+                animation-timing-function: ease-out, ease-in-out;
+                animation-iteration-count: 1, infinite;
+                animation-fill-mode: forwards;
+                animation-direction: normal, alternate;
+            }
+        }
+    }
+
+    
+
+    
+}
