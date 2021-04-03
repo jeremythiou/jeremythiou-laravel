@@ -287,6 +287,10 @@
   font-weight: bold;
   font-size: 19px;
 }
+.experience__place a {
+  text-decoration: none;
+  color: #434242;
+}
 .experience__duration {
   margin-bottom: 15px;
 }

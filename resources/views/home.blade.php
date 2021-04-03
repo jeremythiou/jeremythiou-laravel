@@ -111,7 +111,7 @@
               <div class="experience__row">
                 <div class="experience__left">
                   <div class="experience__place reveal-1">
-                    UPEC - IUT S&#233;nart/Fontainebleau
+                    <a href="https://www.iutsf.u-pec.fr/" target="_blank">UPEC - IUT S&#233;nart/Fontainebleau</a>
                   </div>
                   <div class="experience__duration reveal-2">
                     Sept 2015 - Juil 2018
@@ -132,7 +132,7 @@
               <div class="experience__row">
                 <div class="experience__left">
                   <div class="experience__place reveal-1">
-                    Lyc&#233;e Robert Doisneau
+                    <a href="http://www.lyc-doisneau-corbeil.ac-versailles.fr/" target="_blank">Lyc&#233;e Robert Doisneau</a>
                   </div>
                   <div class="experience__duration reveal-2">
                     Sept 2012 - Juil 2015
@@ -161,7 +161,7 @@
               <div class="experience__row">
                 <div class="experience__left">
                   <div class="experience__place reveal-1">
-                    Devfactory
+                    <a href="https://www.devfactory.ch/" target="_blank">Devfactory</a>
                   </div>
                   <div class="experience__duration reveal-2">
                     Oct 2020 - Aujourd'hui
@@ -172,7 +172,14 @@
                     Fulltime - D&eacute;veloppeur Web
                   </div>
                   <div class="experience__description reveal-4">
-                    <p>D&eacute;veloppeur, membre de l'&eacute;quipe de d&eacute;veloppement de l'agence Bureau Web Alan Pilloud en vue de r&eacute;aliser des sites internet Wordpress et des applications sur-mesure selon les besoins. Pendant cette collaboration, j'avais pour t&acirc;ches le d&eacute;veloppement des parties Front-end et Back-end des projets Wordpress depuis des maquettes Sketch. J'&eacute;tais aussi amen&eacute; &agrave; faire des reviews et des validations des t&acirc;ches effectu&eacute;es par mes coll&egrave;gues d&eacute;veloppeurs. Je participais aussi au d&eacute;coupage des t&acirc;ches de certains projets &agrave; r&eacute;aliser.</p>
+                    <ul>
+                      <li>Développement de projets Laravel</li>
+                      <li>Développement de projets Drupal (7/8/9)</li>
+                      <li>Création d'applications web et mobiles vue.js</li>
+                      <li>Création de services backend pour ces applications web</li>
+                      <li>Maintenances et réparations des projets existants</li>
+                    </ul>
+                    <p>Développeur web, membre de l'équipe de développement de l'agence </p>
                   </div>
                   <div class="experience__location reveal-5">
                     Lausanne VD, Suisse
@@ -182,7 +189,7 @@
               <div class="experience__row">
                 <div class="experience__left">
                   <div class="experience__place reveal-1">
-                    Bureau Web Alan Pilloud
+                    <a href="https://www.bureauweb.ch/" target="_blank">Bureau Web</a>
                   </div>
                   <div class="experience__duration reveal-2">
                     Nov 2018 - F&eacute;v 2019
@@ -193,7 +200,7 @@
                     Fulltime - D&eacute;veloppeur
                   </div>
                   <div class="experience__description reveal-4">
-                    <p>D&eacute;veloppeur, membre de l'&eacute;quipe de d&eacute;veloppement de l'agence Bureau Web Alan Pilloud en vue de r&eacute;aliser des sites internet Wordpress et des applications sur-mesure selon les besoins. Pendant cette collaboration, j'avais pour t&acirc;ches le d&eacute;veloppement des parties Front-end et Back-end des projets Wordpress depuis des maquettes Sketch. J'&eacute;tais aussi amen&eacute; &agrave; faire des reviews et des validations des t&acirc;ches effectu&eacute;es par mes coll&egrave;gues d&eacute;veloppeurs. Je participais aussi au d&eacute;coupage des t&acirc;ches de certains projets &agrave; r&eacute;aliser.</p>
+                    <p>D&eacute;veloppeur, membre de l'&eacute;quipe de d&eacute;veloppement de l'agence Bureau Web en vue de r&eacute;aliser des sites internet Wordpress et des applications sur-mesure selon les besoins. Pendant cette collaboration, j'avais pour t&acirc;ches le d&eacute;veloppement des parties Front-end et Back-end des projets Wordpress depuis des maquettes Sketch. J'&eacute;tais aussi amen&eacute; &agrave; faire des reviews et des validations des t&acirc;ches effectu&eacute;es par mes coll&egrave;gues d&eacute;veloppeurs. Je participais aussi au d&eacute;coupage des t&acirc;ches de certains projets &agrave; r&eacute;aliser.</p>
                   </div>
                   <div class="experience__location reveal-5">
                     Vevey VD, Suisse
@@ -203,7 +210,7 @@
               <div class="experience__row">
                 <div class="experience__left">
                   <div class="experience__place reveal-1">
-                    Bureau Web Alan Pilloud
+                    <a href="https://www.bureauweb.ch/" target="_blank">Bureau Web</a>
                   </div>
                   <div class="experience__duration reveal-2">
                     Avr 2018 - Juin 2018

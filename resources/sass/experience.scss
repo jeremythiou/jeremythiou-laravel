@@ -83,6 +83,10 @@
     &__place{
         font-weight: bold;
         font-size: 19px;
+        a{
+            text-decoration: none;
+            color: #434242;
+        }
     }
 
     &__duration{
