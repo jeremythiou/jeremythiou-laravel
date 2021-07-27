@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
             UsersSeeder::class,
             FormationsSeeder::class,
             ProfessionalExperiencesSeeder::class,
+            AbilitiesSeeder::class,
         ]);
     }
 }
