@@ -45,6 +45,10 @@ class User extends Authenticatable
         return $this->hasMany(Ability::class);
     }
 
+    public function languages() {
+        return $this->hasMany(Language::class);
+    }
+
     public function formations() {
         return $this->hasMany(Formation::class);
     }

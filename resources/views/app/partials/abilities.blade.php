@@ -39,41 +39,23 @@
         Langues
       </div>
       <div class="abilities__list abilities__list--languages reveal-right">
-        <?php
-          $languages = [
-            ["Fran&#231;ais - Langue maternelle", 5],
-            ["Anglais - Niveau C1, TOEIC: 825", 4],
-            ["Espagnol - Niveau scolaire", 2],
-            ["Polonais - Notions", 1]
-          ];
-
-          foreach($languages as $key=>$language){
-            ?>
-            <div class="abilities__reveal reveal-<?= $key + 1 ?>">
-              <div class="abilities__row">
-                <div class="abilities__name">
-                  <?= $language[0]; ?>
-                </div>
-                <div class="abilities__rate">
-                  <?php
-                    for($i = 0; $i < $language[1]; $i++){
-                      ?>
-                      <i class="fas fa-star"></i>
-                      <?php
-                    }
-
-                    for($i = 0; $i < 5 - $language[1]; $i++){
-                      ?>
-                      <i class="far fa-star"></i>
-                      <?php
-                    }
-                  ?>
-                </div>
+        @foreach($languages as $key => $language)
+          <div class="abilities__reveal reveal-{{ $key + 1 }}">
+            <div class="abilities__row">
+              <div class="abilities__name">
+                {{ $language->language }}
+              </div>
+              <div class="abilities__rate">
+                @for($i = 0; $i < $language->rate; $i++)
+                  <i class="fas fa-star"></i>
+                @endfor
+                @for($i = 0; $i < 5 - $language->rate; $i++)
+                  <i class="far fa-star"></i>
+                @endfor
               </div>
             </div>
-            <?php
-          }
-        ?>
+          </div>
+        @endforeach
       </div>
     </div>
 
