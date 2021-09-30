@@ -64,57 +64,24 @@
         Outils
       </div>
       <div class="abilities__list abilities__list--tools reveal-right">
-        <?php
-          $tools = [
-            ["git", 5],
-            ["Microsoft Office", 5],
-            ["npm", 5],
-            ["Trello", 5],
-            ["UNIX/Linux, Ubuntu, Debian", 5],
-            ["Windows (Vista, 7, 8, 10)", 5],
-            ["Composer", 4],
-            ["Photoshop", 4],
-            ["Premier Pro", 4],
-            ["Sony Vegas Pro", 4],
-            ["Unity", 4],
-            ["VIM", 4],
-            ["VS Code", 4],
-            ["Docker", 3],
-            ["SCRUM", 3],
-            ["Sketch", 3],
-            ["Android", 2],
-            ["Modélisation UML", 2],
-          ];
-
-          foreach($tools as $key=>$tool){
-            ?>
-            <div class="abilities__reveal reveal-<?= $key + 1 ?>">
-              <div class="abilities__row">
-                <div class="abilities__name">
-                  <?= $tool[0]; ?>
-                </div>
-                <div class="abilities__rate">
-                  <?php
-                    for($i = 0; $i < $tool[1]; $i++){
-                      ?>
-                      <i class="fas fa-star"></i>
-                      <?php
-                    }
-
-                    for($i = 0; $i < 5 - $tool[1]; $i++){
-                      ?>
-                      <i class="far fa-star"></i>
-                      <?php
-                    }
-                  ?>
-                </div>
+        @foreach($tools as $key => $tool)
+          <div class="abilities__reveal reveal-{{ $key + 1 }}">
+            <div class="abilities__row">
+              <div class="abilities__name">
+                {{ $tool->tool }}
+              </div>
+              <div class="abilities__rate">
+                @for($i = 0; $i < $tool->rate; $i++)
+                  <i class="fas fa-star"></i>
+                @endfor
+                @for($i = 0; $i < 5 - $tool->rate; $i++)
+                  <i class="far fa-star"></i>
+                @endfor
               </div>
             </div>
-            <?php
-          }
-        ?>
+          </div>
+        @endforeach
       </div>
     </div>
-
   </div>
 </div>

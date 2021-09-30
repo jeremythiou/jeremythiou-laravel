@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
             ProfessionalExperiencesSeeder::class,
             AbilitiesSeeder::class,
             LanguagesSeeder::class,
+            ToolsSeeder::class,
         ]);
     }
 }

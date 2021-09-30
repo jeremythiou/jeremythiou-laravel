@@ -33,12 +33,19 @@ class PageController extends Controller
             ->orderBy('language', 'ASC')
             ->get();
 
+        $tools = $user->tools()
+            ->visible()
+            ->orderBy('rate', 'DESC')
+            ->orderBy('tool', 'ASC')
+            ->get();
+
         return view('home')->with([
             'user' => $user,
             'formations' => $formations,
             'professional_experiences' => $professional_experiences,
             'abilities' => $abilities,
             'languages' => $languages,
+            'tools' => $tools,
         ]);
     }
 }
