@@ -13,7 +13,8 @@
 
     <title>Jérémy Thiou - Développeur Web</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Jérémy Thiou, développeur web full stack. La bonne structuration et l'ordre dans mon code sont des points importants pour moi. J'aime passer du temps à optimiser mes applications afin de livrer des projets d’excellente qualité.">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Jérémy Thiou, développeur web Laravel et VueJS. La bonne structuration et l'ordre dans mon code sont des points importants pour moi. J'aime passer du temps à optimiser mes applications afin de livrer des projets d’excellente qualité.">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/main.css" type="text/css">
     <link rel="icon" type="image/png" href="/images/favicon.png"/>
@@ -27,10 +28,6 @@
     @include('app.partials.experience')
 
     @include('app.partials.abilities')
-
-    <div class="projects">
-
-    </div>
 
     <div class="background-grey">
       <div class="container">

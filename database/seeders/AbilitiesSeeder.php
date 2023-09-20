@@ -28,6 +28,7 @@ class AbilitiesSeeder extends Seeder
             ["Vue.js", 5],
             ["Blade", 5],
             ["Bootstrap", 4],
+            ["CI/CD", 4],
             ["Drupal", 4],
             ["JQuery", 4],
             ["MySQL", 4],
@@ -35,6 +36,7 @@ class AbilitiesSeeder extends Seeder
             ["SASS/SCSS", 4],
             ["SCRUM", 4],
             ["Symfony", 4],
+            ["TypeScript", 4],
             ["Wordpress", 4],
             ["C#", 3],
             ["Java", 3],
@@ -45,7 +47,8 @@ class AbilitiesSeeder extends Seeder
             ["C", 2]
         ]);
 
-        $abilities->each(fn($ability) => Ability::create([
+        $abilities->each(
+            fn ($ability) => Ability::create([
                 'user_id' => $user->id,
                 'language' => $ability[0],
                 'rate' => $ability[1],

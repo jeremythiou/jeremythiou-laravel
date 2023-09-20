@@ -28,7 +28,7 @@ class UsersSeeder extends Seeder
             'locality' => 'Lausanne',
             'county' => 'VD',
             'country' => 'Suisse',
-            'about' => "Je suis capable de développer des applications web Laravel et Drupal en full-stack. La bonne structuration et l'ordre dans mon code sont des points importants pour moi. J'aime passer du temps à optimiser mes applications afin de livrer des projets d'excellente qualité.",
+            'about' => "Je suis capable de développer des applications web <strong>Laravel</strong> et <strong>VueJS</strong>. La bonne structuration et l'ordre dans mon code sont des points importants pour moi. J'aime passer du temps à optimiser mes applications afin de livrer des projets d'excellente qualité.",
         ]);
     }
 }

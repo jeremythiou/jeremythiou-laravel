@@ -70,12 +70,21 @@ class ProfessionalExperiencesSeeder extends Seeder
             'from' => '2020-10-01',
             'description' => "<p>Développeur web au sein de l'agence Devfactory. Mes principales tâches sont:</p>"
                 . "<ul>"
-                . "<li>Développement de projets Laravel</li>"
-                . "<li>Développement de projets Drupal (7/8/9)</li>"
-                . "<li>Création d'applications web et mobiles vue.js</li>"
-                . "<li>Création de services backend pour ces applications web</li>"
+                . "<li>Développement de projets Laravel (versions 5 à 10)</li>"
+                . "<li>Création de services backend (API RESTful, Interface Administration)</li>"
+                . "<li>Création d'applications web et mobiles VueJS (versions 2 et 3 avec Composition API)</li>"
+                . "<li>Développement de projets Drupal (versions 7 à 9)</li>"
                 . "<li>Maintenances et réparations des projets existants</li>"
-                . "</ul>",
+                . "</ul>"
+                . "</br>"
+                . "<p>Participation dans l'équipe de développement d'un service d'inscription à la vaccination contre la Covid19 pendant la pandémie en 2021:"
+                . "<ul>"
+                . "<li>Développement de nouvelles fonctionnalités</li>"
+                . "<li>Monitoring des données</li>"
+                . "<li>Monitoring et résolution des erreurs</li>"
+                . "<li>Création et utilisation d'un service de notification par SMS</li>"
+                . "<li>Création et maintenance d'un algorithme d'attribution de rendez-vous automatique en fonction de plusieurs règles prédéfinies et mises à jour au fil du temps</li>"
+                . "</ul></p>",
             'locality' => 'Lausanne',
             'country' => 'Suisse',
         ]);

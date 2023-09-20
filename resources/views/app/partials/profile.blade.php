@@ -15,7 +15,7 @@
           &#192; propos
         </div>
         <div class="profile__about-text">
-          <p>{{ $user->about }}</p>
+          <p>{!! $user->about !!}</p>
         </div>
       </div>
       
