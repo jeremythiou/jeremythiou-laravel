@@ -41,23 +41,28 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function abilities() {
+    public function abilities()
+    {
         return $this->hasMany(Ability::class);
     }
 
-    public function languages() {
+    public function languages()
+    {
         return $this->hasMany(Language::class);
     }
 
-    public function formations() {
+    public function formations()
+    {
         return $this->hasMany(Formation::class);
     }
 
-    public function professionalExperiences() {
+    public function professionalExperiences()
+    {
         return $this->hasMany(ProfessionalExperience::class);
     }
 
-    public function tools() {
+    public function tools()
+    {
         return $this->hasMany(Tool::class);
     }
 }
