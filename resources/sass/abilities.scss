@@ -1,14 +1,14 @@
-.abilities{
+.abilities {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    &__content + &__content{
+    &__content+&__content {
         margin-top: 40px;
     }
 
-    &__header{
+    &__header {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -18,59 +18,59 @@
         margin-bottom: 40px;
     }
 
-    &__title{
+    &__title {
         font-family: $lato-sans-serif;
         font-size: 40px;
         font-weight: 400;
         color: $font-color-blue;
     }
 
-    &__subtitle{
+    &__subtitle {
         font-family: $roboto-sans-serif;
         font-size: 25px;
         font-weight: 400;
     }
 
-    &__content{
+    &__content {
         width: 100%;
         padding-top: 50px;
 
         border-top: 1px solid $font-color-blue
     }
 
-    &__list-name{
+    &__list-name {
         font-family: $lato-sans-serif;
         font-size: 27px;
         font-weight: 400;
-        color: $font-color-blue; 
+        color: $font-color-blue;
 
         margin-bottom: 25px;
     }
 
-    &__list{
+    &__list {
         display: flex;
         flex-direction: column;
         align-items: center;
 
-        @media (min-width: $screen-lg-min){
+        @media (min-width: $screen-lg-min) {
             justify-content: flex-start;
             flex-wrap: wrap;
 
-            &--skills{
+            &--skills {
                 height: 24em;
             }
 
-            &--languages{
+            &--languages {
                 height: 4em;
             }
 
-            &--tools{
-                height: 18em;
+            &--tools {
+                height: 25em;
             }
         }
     }
 
-    &__reveal{
+    &__reveal {
         width: 100%;
         max-width: 375px;
 
@@ -83,7 +83,7 @@
         }
     }
 
-    &__row{
+    &__row {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -95,24 +95,24 @@
 
         transition: background 0.2s;
 
-        .abilities__rate{
-            i{
+        .abilities__rate {
+            i {
                 transition: margin 0.4s;
             }
         }
 
-        &:hover{
+        &:hover {
             background: #F2F2F2;
 
-            .abilities__rate{
-                i{
+            .abilities__rate {
+                i {
                     margin: 0 1px;
                 }
             }
         }
     }
 
-    &__rate{
+    &__rate {
         color: $font-color-blue;
         min-width: 125px;
     }
